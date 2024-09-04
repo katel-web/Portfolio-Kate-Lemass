@@ -22,6 +22,7 @@ h1 {
 h3 {
   font-size: 24px;
   font-weight: bold;
+  line-height: 1.5;
 }
 .hero h2 {
   font-family: var(--default-font);
@@ -81,6 +82,7 @@ h2 {
 .content-inner {
   padding: 30px;
 }
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
