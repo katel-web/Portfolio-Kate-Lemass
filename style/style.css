@@ -83,6 +83,34 @@ h2 {
   padding: 30px;
 }
 
+.logo {
+  max-height: 80px;
+  padding: 10px 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 80px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+li a {
+  text-decoration: none;
+  color: #272142;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+li a:hover {
+  color: var(--primary-color);
+}
+a.active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
