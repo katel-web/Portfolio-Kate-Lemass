@@ -19,7 +19,10 @@ h1 {
   font-size: 96px;
   line-height: 1.5;
 }
-
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
 .hero h2 {
   font-family: var(--default-font);
   font-weight: 500;
@@ -78,7 +81,7 @@ h2 {
 .content-inner {
   padding: 30px;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .project-description {
     padding: 0;
     text-align: center;
