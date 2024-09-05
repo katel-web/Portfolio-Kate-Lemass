@@ -25,48 +25,121 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/style/style.css" />
-    <title>My Work</title>
+    <meta name="description" content="View Kate Lemass' front end projects" />
+    <title>Work - Front end projects</title>
   </head>
   <body>
-    <div class="content container">
-      <h1 class="">Take a look at what I've been working on!</h1>
-      <div class="row">
-        <div class="col-md-6">
-          <img
-            src="/images/yogurt.png"
-            alt="yogurt"
-            class="img-fluid rounded"
-          />
-          <h3 class="text-center mt-3">Yogurt project</h3>
-          <p class="text-center mb-5">Built using CSS, HTML and X</p>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="/images/logo.png" alt="Kate Lemass logo" class="logo" />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/work.html" class="active" title="Kate's Work">Work</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Kate ">About</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Kate">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="content">
+        <h1 class="">Take a look at what I've been working on!</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="/images/yogurt.png"
+              alt="yogurt project preview"
+              class="img-fluid rounded"
+            />
+            <h3 class="text-center mt-3">Yogurt project</h3>
+            <p class="text-center mb-5">Built using CSS, HTML and X</p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="/images/dictionary.png"
+              alt="Dictionary project preview"
+              class="img-fluid rounded"
+            />
+            <h3 class="text-center mt-3">Dictionary project</h3>
+            <p class="text-center mb-5">Built using CSS, HTML and JavaScript</p>
+          </div>
         </div>
-        <div class="col-md-6">
-          <img
-            src="/images/dictionary.png"
-            alt="Dictionary"
-            class="img-fluid rounded"
-          />
-          <h3 class="text-center mt-3">Dictionary project</h3>
-          <p class="text-center mb-5">Built using CSS, HTML and JavaScript</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="/images/translation.png" alt="" class="img-fluid" />
-          <h3 class="text-center mt-3">Translation project</h3>
-          <p class="text-center mb-5">Built using CSS, HTML and X</p>
-        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="/images/translation.png"
+              alt="Translation project preview"
+              class="img-fluid"
+            />
+            <h3 class="text-center mt-3">Translation project</h3>
+            <p class="text-center mb-5">Built using CSS, HTML and X</p>
+          </div>
 
-        <div class="col-md-6">
-          <img src="/images/weather.png" alt="" class="img-fluid rounded" />
-          <h3 class="text-center mt-3">Weather project</h3>
-          <p class="text-center mb-5">Built using CSS, HTML and X</p>
+          <div class="col-md-6">
+            <img
+              src="/images/weather.png"
+              alt="Weather project preview"
+              class="img-fluid rounded"
+            />
+            <h3 class="text-center mt-3">Weather project</h3>
+            <p class="text-center mb-5">Built using CSS, HTML and X</p>
+          </div>
         </div>
       </div>
-    </div>
-    <a href="/index.html">Back to Homepage</a>
-    <div>
-      <a href="/about.html">About page</a>
+
+      <footer>
+        <div class="contact-box d-none d-md-flex justify-content-between">
+          <div>
+            <h4>Work Enquiry</h4>
+            <p class="opacity-75">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding" title="Contact me"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <a
+          href="mailto:katelemass@gmail.com"
+          class="email-link d-flex justify-content-center mt-5 mb-4"
+          title="email Kate"
+          >katelemass@gmail.com</a
+        >
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/katelemass_design/"
+            target="_blank"
+            title="Instagram profile"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://github.com/katel-web"
+            target="_blank"
+            title="Github profile"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" title="twitter">
+            <i class="fa-brands fa-twitter" target="_blank"></i>
+          </a>
+        </div>
+        <p class="text-center opacity-75 mt-3">
+          This project was coded by Kate Lemass and is open-sourced on
+          <a
+            href="https://github.com/katel-web/portfolio-Kate-Lemass"
+            target="_blank"
+            >GitHub</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>

@@ -25,26 +25,100 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/style/style.css" />
-    <title>About me</title>
+    <meta
+      name="description"
+      content="About Kate Lemass, a front end developer in Ireland"
+    />
+    <title>About Kate Lemass</title>
   </head>
   <body>
-    <div class="content container">
-      <div class="row">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="/images/logo.png" alt="Kate Lemass logo" class="logo" />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Kate's Work">Work</a>
+          </li>
+          <li>
+            <a href="/about.html" class="active" title="About Kate ">About</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Kate">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="content">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="">Hi! I am Kate Lemass</h1>
+            <h2 class="mt-3">Front-end developer, based in Ireland</h2>
+            <p class="opacity-75 mt-3">
+              For anyone who wants to start learning code, this workshop is very
+              interesting. You will be challenged with different exercises, and
+              everything is well explained, homework and deadlines are good for
+              keep focus
+            </p>
+            <a href="/work.html" class="btn btn-branding mt-4 mb-4"
+              >View all projects</a
+            >
+          </div>
+        </div>
         <div class="col-lg-6">
-          <h1 class="">Hi! I am Kate Lemass</h1>
-          <h2 class="mt-3">Front-end developer, based in Ireland</h2>
-          <p class="opacity-75 mt-3">
-            For anyone who wants to start learning code, this workshop is very
-            interesting. You will be challenged with different exercises, and
-            everything is well explained, homework and deadlines are good for
-            keep focus
-          </p>
-          <a href="" class="btn btn-branding mt-4 mb-4">View all projects</a>
+          <img src="/images/self.jpg" alt="Kate" class="img-fluid rounded" />
         </div>
       </div>
-      <div class="col-lg-6">
-        <img src="/images/self.jpg" alt="" class="img-fluid rounded" />
-      </div>
+
+      <footer>
+        <div class="contact-box d-none d-md-flex justify-content-between">
+          <div>
+            <h4>Work Enquiry</h4>
+            <p class="opacity-75">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding" title="Contact me"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <a
+          href="mailto:katelemass@gmail.com"
+          class="email-link d-flex justify-content-center mt-5 mb-4"
+          title="email Kate"
+          >katelemass@gmail.com</a
+        >
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/katelemass_design/"
+            target="_blank"
+            title="Instagram profile"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://github.com/katel-web"
+            target="_blank"
+            title="Github profile"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" title="twitter">
+            <i class="fa-brands fa-twitter" target="_blank"></i>
+          </a>
+        </div>
+        <p class="text-center opacity-75 mt-3">
+          This project was coded by Kate Lemass and is open-sourced on
+          <a
+            href="https://github.com/katel-web/portfolio-Kate-Lemass"
+            target="_blank"
+            >GitHub</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>

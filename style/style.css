@@ -90,7 +90,6 @@ h2 {
 }
 nav {
   background-color: white;
-  margin-bottom: ;
 }
 nav li {
   display: inline;
@@ -101,6 +100,7 @@ nav ul {
   padding: 0;
   margin: 0;
 }
+
 li a {
   text-decoration: none;
   color: #272142;
