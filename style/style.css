@@ -34,7 +34,7 @@ h3 {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 120px 60px;
+  padding: 160px 60px 120px;
 }
 
 .hero p {
@@ -88,7 +88,10 @@ h2 {
   max-height: 80px;
   padding: 10px 0;
 }
-
+nav {
+  background-color: white;
+  margin-bottom: ;
+}
 nav li {
   display: inline;
   list-style: none;
