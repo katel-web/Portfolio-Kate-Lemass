@@ -51,6 +51,7 @@ h3 {
   font-weight: 500;
   padding: 15px 30px;
 }
+
 .btn-branding-outline {
   padding: 15px 30px;
   color: var(--primary-color);
@@ -110,7 +111,50 @@ a.active {
   color: var(--primary-color);
   font-weight: 600;
 }
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 40px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .contact-box .btn-branding {
+  margin-top: 14px;
+}
+footer h4 {
+  font-size: 48px;
+  font-family: var(--heading-font);
+  font-weight: bold;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  transition: all 150ms ease-in-out;
+  font-size: 24px;
+}
+footer .social-links {
+  text-decoration: none;
+}
 
+footer .social-links a {
+  color: var(--primary-color);
+  font-size: 18px;
+  margin: 20px;
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
